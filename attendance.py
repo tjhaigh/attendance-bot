@@ -25,7 +25,6 @@ LOG_FILE = 'attendance.txt'
 DISCORD_CHANNEL = 'Ready for Invite'
 #SHEET_ID = '1lHNhWJu2W0oT49RGieyH7PUYgPl-d9saFzRyNcQMu_w'
 # Test ^^^
-SHEET_ID = '1rS0YTVtZUPMw0hMAyjrWjncUy_9mv-9tUjc0iqSn84U'
 MISSING_FILE = 'missing.txt'
 
 HELP_MSG = 'attendance-bot help:\n' \
