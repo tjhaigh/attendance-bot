@@ -6,17 +6,17 @@ import httplib2
 import os
 import logging
 import time
-import ConfigParser
+import configparser
 from datetime import datetime, timedelta
 from apiclient import discovery
 import oauth2client
 from oauth2client import client,tools
 
 # Get keys from seperate file
-config = ConfigParser.ConfigParser()
+config = configparser.ConfigParser()
 config.readfp(open('config.ini'))
 SHEET_ID = config.get('Keys', 'sheet_id')
-TOKEN = config.get('Token', 'token')
+TOKEN = config.get('Keys', 'token')
 
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets'
 CLIENT_SECRET_FILE = 'secret.json'
